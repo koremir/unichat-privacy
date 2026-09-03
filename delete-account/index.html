@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+
+  <title>UniChat - Hesap Silme Talebi</title>
+  <meta
+    name="description"
+    content="UniChat hesabınızı ve hesabınızla ilişkili verileri silme talebinde bulunmak için gerekli bilgiler."
+  />
+
+  <style>
+    :root {
+      --bg: #05070d;
+      --card: #0b0f18;
+      --text: #eef2ff;
+      --muted: #94a3b8;
+      --primary: #8b5cf6;
+      --primary-soft: rgba(139, 92, 246, 0.14);
+      --border: #1e293b;
+      --danger: #f87171;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 80px;
+    }
+
+    .hero {
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background:
+        radial-gradient(
+          circle at top right,
+          rgba(139, 92, 246, 0.12),
+          transparent 35%
+        ),
+        var(--card);
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 11px;
+      margin-bottom: 14px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: #ddd6fe;
+      border: 1px solid rgba(139, 92, 246, 0.28);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(30px, 6vw, 46px);
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin-top: 34px;
+      font-size: 21px;
+    }
+
+    p,
+    li {
+      color: #d7deea;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .card {
+      padding: 22px;
+      margin: 18px 0;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--card);
+    }
+
+    .step {
+      display: flex;
+      gap: 14px;
+      margin: 16px 0;
+    }
+
+    .step-number {
+      min-width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--primary);
+      color: white;
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    strong {
+      color: white;
+    }
+
+    a {
+      color: #c4b5fd;
+    }
+
+    .warning {
+      border-left: 3px solid var(--danger);
+      padding-left: 16px;
+      margin-top: 22px;
+    }
+
+    .footer {
+      margin-top: 44px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="hero">
+      <span class="badge">UniChat</span>
+      <h1>Hesap Silme Talebi</h1>
+
+      <p>
+        Bu sayfa, <strong>UniChat</strong> kullanıcılarının hesaplarının ve
+        hesaplarıyla ilişkili kişisel verilerin silinmesini talep etmeleri için
+        hazırlanmıştır.
+      </p>
+
+      <p class="muted">
+        Son güncelleme: 3 Eylül 2026
+      </p>
+    </section>
+
+    <section>
+      <h2>Hesabımı nasıl silebilirim?</h2>
+
+      <div class="card">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div>
+            <strong>UniChat hesabınızda kullandığınız e-posta adresini belirleyin.</strong>
+            <div class="muted">
+              Silme talebinin doğru hesapla eşleştirilebilmesi için hesapta kayıtlı
+              e-posta adresi gereklidir.
+            </div>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div>
+            <strong>Google Play'de yer alan UniChat geliştirici iletişim adresine ulaşın.</strong>
+            <div class="muted">
+              UniChat Google Play mağaza sayfasındaki geliştirici iletişim
+              e-posta adresini kullanabilirsiniz.
+            </div>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div>
+            <strong>E-postanın konusuna “UniChat Hesap Silme Talebi” yazın.</strong>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">4</div>
+          <div>
+            <strong>
+              Mesajınızda UniChat hesabınızda kullandığınız e-posta adresini belirtin.
+            </strong>
+            <div class="muted">
+              Güvenlik nedeniyle şifrenizi, doğrulama kodunuzu veya başka hassas
+              giriş bilgilerinizi göndermeyin.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p>
+        Talep alındıktan sonra hesabın size ait olduğunun doğrulanması için gerekli
+        güvenlik kontrolleri yapılabilir.
+      </p>
+    </section>
+
+    <section>
+      <h2>Silme talebi kapsamında silinebilecek veriler</h2>
+
+      <ul>
+        <li>UniChat kullanıcı hesabı</li>
+        <li>Hesapla ilişkili e-posta adresi</li>
+        <li>Profil bilgileri</li>
+        <li>Profil tercihleri ve uygulama ayarları</li>
+        <li>Hesapla ilişkili kullanıcı içeriği</li>
+        <li>Hesapla ilişkili yüklenen görseller</li>
+        <li>Hesapla ilişkilendirilebilen diğer kişisel veriler</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Saklanabilecek veriler</h2>
+
+      <p>
+        Hesap silindikten sonra bazı sınırlı bilgiler; güvenlik, dolandırıcılığın
+        önlenmesi, kötüye kullanımın araştırılması, hukuki yükümlülüklerin yerine
+        getirilmesi veya uyuşmazlıkların çözülmesi amacıyla gerekli olduğu süre
+        boyunca saklanabilir.
+      </p>
+
+      <p>
+        Yasal veya güvenlik amacıyla saklanması gerekmeyen kişisel veriler silme
+        işlemi kapsamında kaldırılır veya anonimleştirilir.
+      </p>
+    </section>
+
+    <section>
+      <h2>İşlem süresi</h2>
+
+      <p>
+        Hesap silme talepleri doğrulandıktan sonra mümkün olan en kısa sürede
+        işleme alınır. Yasal veya teknik gereklilikler nedeniyle bazı verilerin
+        tamamen kaldırılması ek süre gerektirebilir.
+      </p>
+    </section>
+
+    <section class="warning">
+      <h2>Önemli</h2>
+
+      <p>
+        Hesap silme işlemi geri alınamayabilir. Hesabınız silindikten sonra profil,
+        mesajlaşma geçmişi veya diğer hesap verilerine yeniden erişemeyebilirsiniz.
+      </p>
+
+      <p>
+        Hesap silme talebi için hiçbir zaman UniChat şifrenizi veya tek kullanımlık
+        doğrulama kodunuzu paylaşmayın.
+      </p>
+    </section>
+
+    <section>
+      <h2>English</h2>
+
+      <p>
+        UniChat users may request deletion of their account and associated personal
+        data by contacting the developer through the contact email displayed on
+        the UniChat Google Play Store listing.
+      </p>
+
+      <p>
+        Please use the subject <strong>“UniChat Account Deletion Request”</strong>
+        and include the email address associated with your UniChat account.
+        Do not send your password or authentication codes.
+      </p>
+
+      <p>
+        Account information, profile information, user preferences and associated
+        personal content may be deleted. Limited records may be retained when
+        required for legal compliance, security, fraud prevention or abuse
+        investigation.
+      </p>
+    </section>
+
+    <footer class="footer">
+      © 2026 UniChat — Account & Data Deletion
+    </footer>
+  </main>
+</body>
+</html>
